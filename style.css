@@ -27,7 +27,7 @@ header {
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
-    box-shadow: 10px 9px 7px #00000096;
+    box-shadow: 1px 9px 9px #00000096;
 }
 header a{
     text-decoration: none;
