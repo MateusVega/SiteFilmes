@@ -22,7 +22,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     box-shadow: 10px 9px 7px #00000096;
 }
 header a{
@@ -53,7 +53,7 @@ img#icon {
 }
 
 .container {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
