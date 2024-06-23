@@ -60,11 +60,8 @@ img#icon {
     padding: 20px;
 }
 
-div#image {
+#image{
     margin-right: 30px;
-}
-
-div#image > img {
     width: 330px;
     height: 470px;
     box-shadow: 7px 7px 7px #00000063;
@@ -72,7 +69,7 @@ div#image > img {
     border-radius: 3%;
     transition: transform 0.3s ease;
 }
-div#image > img:hover{
+#image:hover{
     transform: scale(1.05);
 }
 div#text {
@@ -91,4 +88,35 @@ footer p {
     text-align: center;
     margin: auto;
     padding: 15px;
+}
+
+@media(max-width:650px){
+    body{
+        overflow-y: scroll;
+    }
+    header {
+        height: 15%;
+    }
+    header a {
+        font-size: 1.5em;
+    }
+    img#icon {
+        width: 30px;
+        height: 35px;
+    }
+    #image{
+        width: 198px;
+        height: 282px;
+    }
+    .container {
+        display:block;
+        align-items: center;
+        justify-content: center;
+    }
+    div#text {
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
 }
